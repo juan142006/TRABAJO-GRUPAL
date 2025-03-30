@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>BODEGA-CERTUS</title>
+ 
+     
+     
+     <style>
+         body {
+             font-family: Arial, Helvetica, sans-serif;
+             background-color: bisque;
+             margin: 0;
+             padding: 0;
+ 
+         }
+         header {
+             background-color: #e74c3c;
+             color: white;
+             text-align: center;
+             padding: 20px 0;
+ 
+ 
+         }
+         h1 {
+             margin:0;
+         }
+         nav {
+             text-align: center;
+             margin-top: 10px;
+         }
+         nav a{
+             margin: 0 15px;
+             text-decoration: none;
+             color: white;
+             font-size: 18px;
+         }
+         nav a.hover{
+             color: #f1c40f;
+         }
+         .pizza-item{
+             background-color: white;
+             padding: 20px;
+             margin: 0 10px;
+             border-radius: 8px;
+             box-shadow: 0 4px 6px rgb(0,0,0,0,1);
+             width: 250px;
+             text-align: 20px;
+         }
+         .pizza-item img{
+             width: 100%;
+             border-radius: 8px;
+         }
+         .pízza-item h3{
+             margin: 10px;
+         }
+         .pizza-item p{
+             color: #2c3e50;
+         }
+         footer{
+             background-color: #2c3e;
+             color: white;
+             text-align: center;
+             padding: 15px 0;
+             margin-top: 40px;
+         }
+         section{
+             display: flex;
+             justify-content: space-around;
+             margin: 40px 0;
+             flex-wrap: wrap;
+         }
+         
+ 
+         
+ 
+     </style>
+ 
+ 
+ </head>
+ <body>
+     
+     <header>
+          <h1>BODEGA-VASQUEZ</h1>
+          <hr>
+         </header>
+         
+         <nav>
+             <a href="#">inicio</a>
+             <a href="#">productos</a>
+             <a href="#">contacto</a>
+         </nav> 
+         </header>
+ 
+         
+         
+         <section class="productos">
+             
+             <div class="bodega-item">
+                 <img src="img/Captura de pantalla_30-3-2025_155949_www.bing.com.jpeg" alt="bodega vasquez">
+             
+ 
+             <h3>papel suave</h3>
+             <p>papel suave doble hoja x 15mt</p>
+             <p><strong>precio 2.90$</strong></p>
+             </div>
+ 
+ 
+ 
+             <div class="bodega-item">
+                 <img src="img/Captura de pantalla_30-3-2025_16440_www.bing.com.jpeg" alt="bodega vasques">
+             
+ 
+             <h3>jabón neko</h3>
+             <p>jabón neko antibacterial extra protección</p>
+             <p><strong>precio 5.00$</strong></p>
+             </div>
+             
+ 
+ 
+ 
+ 
+             <div class="bodega-item">
+                 <img src="img/OIP.jfif" alt="bodega vasquez">
+             
+ 
+             <h3>cepillo</h3>
+             <p>cuidado y limpieza aseguradal</p>
+             <p><strong>precio $9.99</strong></p>
+             </div>
+
+
+
+
+             <div class="bodega-item">
+                <img src="img/Captura de pantalla_30-3-2025_162953_www.bing.com.jpeg" alt="bodega vasquez">
+            
+
+            <h3>Gaseosa Pepsi</h3>
+            <p>750ml</p>
+            <p><strong>precio 2 x 5.00$</strong></p>
+            </div>
+
+
+
+            <div class="bodega-item">
+                <img src="img/OIP (1).jfif" alt="bodega vasquez">
+            
+
+            <h3>Galleta vainilla field</h3>
+            <p>Paquete de 147gr</p>
+            <p><strong>precio 3.60$</strong></p>
+            </div>
+
+
+
+            <div class="bodega-item">
+                <img src="img/Captura de pantalla_30-3-2025_164034_www.bing.com.jpeg" alt="bodega vasquez">
+            
+
+            <h3>sublime nestle</h3>
+            <p>chocolate clasico de 28gr</p>
+            <p><strong>precio 2.60$</strong></p>
+            </div>
+
+
+
+            <div class="bodega-item">
+                <img src="img/Captura de pantalla_30-3-2025_164735_www.bing.com.jpeg" alt="bodega vasquez">
+            
+
+            <h3>Bon o bon</h3>
+            <p>Chocolate en bolsa de 128g</p>
+            <p><strong>precio 13.60$</strong></p>
+            </div>
+
+
+
+
+            <style>
+                /*el fontamily sirve para el tipo de letra, el margen,
+                el padding es para dar una separaciones de cada textoy
+                el backgrund color, sirve para dar un color determinado
+                al documento*/
+                body{
+                    font-family: Arial,sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #f4f4f4;
+                }
+                /*CONTENEDOR PRINCIPAL*/
+                .banner-container {
+                    width: 100%;
+                    overflow: hidden;
+                    position: relative;
+                    background-color: #333;
+                }
+                /*CONTENEDOR DE IMAGINES EN MOVIMIENTO*/
+                .banner-images {
+                    display: flex;
+                    animation: scrollBanner 15s linear infinite;
+                }
+                /*ANIMACION DE DESPLAZEAMIENT HORIZONTAL*/
+                @keyframes scrollBanner {
+                    0% {
+                        transform: translateX(0);
+                    }
+                    100%{
+                        transform: translateX(-100%);
+                    }
+                }
+                /*ESTILOS PARA E TEXTO DE BIENVENIA*/
+                .welcome-text{
+                    text-align: center;
+                    font-size: 36px;
+                    margin-top: 20px;
+                    color: #333;
+                }
+                footer{
+                    background-color: #333;
+                    color: white;
+                    padding: 10px 0;
+                    position: absolute;
+                    width: 100%;
+                    bottom: 0;
+                }
+                footer a {
+                    color: blue;
+                }
+                .video{
+                    text-align: center;
+                    margin: 40px;
+                }
+                .video iframe{
+                    width: 80%;
+                    height: 350px;
+                    border: none;
+                    border-radius: 8px;
+                }
+                
+        
+            </style>
+        </head>
+        <body>
+            <header>
+                
+            </header>
+            <header>
+                <!--banner de imagines en movimiento-->
+                <div class="banner-container">
+                     <div class="banner-images">
+                       <img src="img/Captura de pantalla_30-3-2025_162953_www.bing.com.jpeg" alt="producto 1">
+                <img src="img/Captura de pantalla_30-3-2025_164034_www.bing.com.jpeg" alt="producto 2">
+                <img src="img/OIP.jfif" alt="producto 3">
+               </div>
+            </div>
+        
+           <br><br>
+        <section class="video">
+            <h2>productos de buena calidad</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SF7qQ4hjro8?si=oNXaNAWSD98nb8F5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+            
+
+
+
+
+             
+
+
+
+             
+
+
+
+
+           
+
+
+
+
+        
+             
+ 
+                 
+
+
+
+             
+ 
+ 
+             
+             
+ 
+ 
+         </section>
+ 
+ 
+ 
+           
+     
+         
+             
+             
+             
+             
+         
+         
+         
+        
+     
+         
+ 
+ </body>
+ </html>
