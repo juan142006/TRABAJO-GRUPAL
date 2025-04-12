@@ -1,0 +1,54 @@
+
+:root{
+    --bg-color: ;
+    --text-color: ;
+    --button-hg: ;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'courier new', monospace;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s, color 0.5s; 
+}
+
+.container{
+    text-align: center;
+}
+
+.elock{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+    transition: color 0.5s;
+}
+
+button{
+    background-color: var(--button-hg);
+    color: var();
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: #eee;
+
+}
+
+/*TEMA OSCURO*/
+bodY.dark-mode{
+    --bg-color: ;
+    --text-color: ;
+    --button-bg: ;
+
+}
